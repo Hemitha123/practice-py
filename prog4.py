@@ -4,6 +4,7 @@
 # 70–79: C
 # 60–69: D
 # <60: Fail
+
 s1=int(input("enter the marks:"))
 s2=int(input("enter the marks:"))
 s3=int(input("enter the marks:"))
@@ -28,6 +29,7 @@ else:
     print("Fail")
 
 # Take three numbers and find the largest.
+
 num1=int(input("enter the number:"))
 num2=int(input("enter the number:"))
 num3=int(input("enter the number:"))
@@ -39,6 +41,7 @@ else:
     print(num3)
 
 # Check whether a given number is even, odd, or zero.
+
 num=int(input("enter the number:"))
 if num%2==0:
     print("it is even")
@@ -46,6 +49,7 @@ else:
     print("it is odd")
 
 # Check if a character entered by user is a vowel or consonant.
+
 mychar=input("enter the character")
 vchar="aeiouAEIOU"
 if mychar in vchar:
@@ -54,6 +58,7 @@ else:
     print("it is consonant")
 
 # Check if a number is present in a list.
+
 llist=[10,20,3,5,40,5,6,60]
 x=100
 if x in llist:
@@ -63,6 +68,7 @@ else:
 
 
 # Check if a character is present in a string.
+
 mystr="Hello,My name is Hemitha"
 x=input("enter the character")
 if x in mystr:
@@ -71,6 +77,7 @@ else:
     print("character not found")
 
 # Write a program to check if a key exists in a dictionary
+
 ddict={101:"amar",102:"hemitha",103:"moksha"}
 x=int(input("enter the key to be found"))
 if x not in ddict:
