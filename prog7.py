@@ -2,6 +2,7 @@
 # Ask user to enter a sentence.
 # Count how many vowels and consonants it has.
 # Print the counts and display all vowels found (no duplicates)
+
 sentence=input("enter the sentence ")
 vowel="aeiouAEIOU"
 list1=[]
