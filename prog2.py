@@ -1,8 +1,4 @@
-#Given a string "PythonProgramming", print:
-#First 6 characters
-#Last 6 characters
-#Every alternate character
-#The string in reverse order
+#Given a string "PythonProgramming", print: First 6 characters,Last 6 characters,Every alternate character,The string in reverse order
 mystr="PythonProgramming"
 print(mystr[:6])
 print(mystr[-6:])
