@@ -3,7 +3,6 @@ nstr=input(f"enter the number in words:")
 num=int(nstr)
 print(f"the square of the number is {num**2}")
 
-
 #Convert a float to an integer and print both the original and converted values.
 n=float(input("enter the number:"))
 num=int(n)
@@ -22,4 +21,3 @@ for x in llist:
     x=int(x)
     dlist.append(x)
 print(dlist)
-
